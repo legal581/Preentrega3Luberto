@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(240, 255, 254);
+    header{
+    background-color: aquamarine;
+    img{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 5rem;
+        margin: 5px;
+    }
+    .nav-bar-personal{
+        background-color: aquamarine !important;
+    }
+    
+    }
+    .subtitulo{
+    font-size: 100%;
+    font-family: 'Lumanosimo', cursive;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    }
+}
