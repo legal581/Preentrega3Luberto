@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <title>Inicio</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--Inicio NAVBAR-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bar-personal">
+            <img src="Logo.jpg" alt="logo">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Virtual Farmacy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <!-- <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>  -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="../HTML/Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../HTML/Productos.html">Productos</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../HTML/Formacion.html">Formación</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../HTML/Contacto.html">Contacto</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link disabled" href="#">Ingresar</a></li>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar dentro del sitio" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+    </header>
+     <!--FIN NAVBAR-->
+    <h2 class="subtitulo">
+        Tú Salud a un Click de distancia
+    </h2>
+<!--Inicio Carousel-->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagenes/Carousel02.jpg" class="d-block w-100 img-fluid mx-auto" alt="Carousel-1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="natural">Farmacia Natural</h5>
+          <p class="notas01">Explorando el poder de la medicina natural</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/Carousel03.jpg" class="d-block w-100" alt="Carousel-2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Asesoramiento farmacéutico</h5>
+          <p class="notas">¿Cómo y por qué estás medicado?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagenes/Captura.JPG" class="d-block w-100" alt="Carousel-3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Terapias holísticas</h5>
+          <p class="notas">Medicina basada en la integración total y global de la persona</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--Fin Carousel-->   
+<!--Videos de formación sobre algunas patologías-->
+<div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Diabetes</h5>
+          <p class="card-text">La diabetes tipo 2 es una enfermedad crónica que afecta la forma en que el cuerpo utiliza la glucosa (azúcar) en la sangre. Se caracteriza por la resistencia a la insulina, lo que significa que el cuerpo no puede utilizar eficientemente la insulina que produce o no produce suficiente insulina para mantener los niveles de glucosa en sangre bajo control.
+            La insulina es una hormona producida por el páncreas que permite que la glucosa ingrese a las células del cuerpo, donde se utiliza como fuente de energía. En la diabetes tipo 2, las células se vuelven menos sensibles a la insulina y la glucosa se acumula en la sangre en lugar de ser absorbida por las células.
+            Factores como el sobrepeso, la falta de actividad física, la genética y el envejecimiento pueden aumentar el riesgo de desarrollar diabetes tipo 2</p>
+          <iframe class="diabetes-video" width="400" height="200" src="https://www.youtube.com/embed/c_SbV9m91Cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Hipertensión Arterial</h5>
+          <p class="card-text">La hipertensión arterial, también conocida como presión arterial alta, es una condición crónica en la cual la fuerza ejercida por la sangre contra las paredes de las arterias es consistentemente alta. Se considera un problema de salud importante porque puede aumentar el riesgo de enfermedades cardiovasculares, accidentes cerebrovasculares y otros problemas de salud.
+            La presión arterial se mide en dos valores: la presión sistólica, que es la presión en las arterias cuando el corazón late y bombea sangre, y la presión diastólica, que es la presión en las arterias cuando el corazón está en reposo entre latidos. La presión arterial normal se considera generalmente alrededor de 120/80 mmHg (milímetros de mercurio).
+            La hipertensión arterial puede ser causada por diversos factores, incluyendo la genética, el estilo de vida poco saludable, como una dieta alta en sodio, la falta de actividad física, el consumo excesivo de alcohol y el tabaquismo.</p>
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/H8G-UAl17pI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Hipotiroidismo</h5>
+            <p class="card-text">El hipotiroidismo es una condición en la cual la glándula tiroides no produce suficiente hormona tiroidea, que es necesaria para regular el metabolismo del cuerpo. Esta glándula, ubicada en la base del cuello, produce hormonas que controlan la forma en que el cuerpo utiliza la energía.
+                El hipotiroidismo puede ser causado por diferentes factores, siendo la causa más común la enfermedad de Hashimoto, una condición autoinmune en la cual el sistema inmunológico ataca y daña la glándula tiroides. Otras causas incluyen la extirpación quirúrgica de la glándula tiroides, radioterapia en el área del cuello y ciertos medicamentos.
+                Los síntomas del hipotiroidismo pueden variar, pero suelen ser sutiles y se desarrollan lentamente a lo largo del tiempo. Algunos de los síntomas más comunes incluyen fatiga, aumento de peso inexplicado, sensibilidad al frío, piel seca, estreñimiento, pérdida de cabello, debilidad muscular, depresión y problemas de memoria.</p>
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/Lv7insCZZCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+  </div>
+          
+    <footer>
+            <nav>
+                <ul>
+                    <li><a href="https://goo.gl/maps/1ANGjGFLD3VY9MPQ9">Ubicación</a></li>
+                    <li><a href="#">Whatsaap</a></li>
+                    <li><a href="https://www.gmail.com">xxxx@virtualfarmacy.com.ar</a></li>
+                </ul>
+            </nav>
+    </footer>
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</body>
+    
+
+</html>
