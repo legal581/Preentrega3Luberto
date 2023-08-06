@@ -1,0 +1,23 @@
+section{
+    margin-left: 20%;
+    .col-sm-3{
+        h5{
+            font-size: 100%;
+            font-family: "Lumanosimo", cursive;
+            color: black;
+        }
+        .producto{
+            width: 50%;
+            height: 25%;
+        }
+        .card-body{
+        text-align: center;
+        }
+        a{
+        font-size: 80%;
+        size: 3rem;
+        text-align: center;
+        width: 50%;
+        }
+    }
+}
