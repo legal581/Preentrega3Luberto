@@ -54,15 +54,8 @@ p{
 .card-personal{
     margin-top: 10px !important;
 }
-.videos-inicio{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    border: 2px solid black ; 
-    
-}
-.videosindex{
-    border: 2px solid red;
-}
+
+
 
 /*Nosotros - Productos - Contacto*/
 /* .quienes{
@@ -87,10 +80,10 @@ p{
     height: 100%;
     margin: 10px;   
 } */
-.producto{
+/* .producto{
     width: 5%;
     height: 5%;
-}
+} */
 .imagen-contacto{
     width: 20%;
     height: 250px;
