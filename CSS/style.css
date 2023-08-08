@@ -123,22 +123,22 @@ body .subtitulo {
   color: black;
 }
 
-section {
+section.seccion-productos {
   margin-left: 20%;
 }
-section .col-sm-3 h5 {
+section.seccion-productos .col-sm-3 h5 {
   font-size: 100;
   font-family: "Lumanosimo", cursive;
   color: black;
 }
-section .col-sm-3 .producto {
+section.seccion-productos .col-sm-3 .producto {
   width: 50%;
   height: 25%;
 }
-section .col-sm-3 .card-body {
+section.seccion-productos .col-sm-3 .card-body {
   text-align: center;
 }
-section .col-sm-3 a {
+section.seccion-productos .col-sm-3 a {
   font-size: 80%;
   size: 3rem;
   text-align: center;
@@ -175,4 +175,26 @@ section .col-sm-3 a {
   font-family: "Courier New", Courier, monospace;
   background-color: blue;
   text-decoration: none;
+}
+
+article h3 {
+  font-family: "Lumanosimo", cursive;
+  background-color: #f0fffe;
+  margin: 1rem;
+  text-align: center;
+}
+article .flex-nowrap {
+  margin-bottom: 10px;
+}
+article .btn {
+  margin-left: 80%;
+}
+article .mensaje {
+  height: 150px;
+}
+article .input-group-text {
+  font-family: "Lumanosimo", cursive;
+}
+article .columna-parrafo {
+  background-color: #f0fffe;
 }/*# sourceMappingURL=style.css.map */
