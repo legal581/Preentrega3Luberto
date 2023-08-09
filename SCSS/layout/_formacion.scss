@@ -28,6 +28,18 @@
                 background-color: blue;
                 text-decoration: none;
             }
+            a:hover{
+                background-color: aquamarine;
+                color: black;
+                border-radius: 5rem;
+                
+
+            }
         }
     }
+    .elemento{
+        cursor: pointer;
+    }
+    
+    
 }

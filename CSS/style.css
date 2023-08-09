@@ -143,9 +143,6 @@ body .subtitulo {
   margin: 15px;
   margin-left: 40%;
 }
-.seccion-productos .vermas {
-  margin-left: 10px;
-}
 
 .notas-formacion {
   display: block;
@@ -177,6 +174,14 @@ body .subtitulo {
   font-family: "Courier New", Courier, monospace;
   background-color: blue;
   text-decoration: none;
+}
+.cursos-cap .row .col a:hover {
+  background-color: aquamarine;
+  color: black;
+  border-radius: 5rem;
+}
+.cursos-cap .elemento {
+  cursor: pointer;
 }
 
 article h3 {
