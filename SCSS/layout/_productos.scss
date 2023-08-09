@@ -1,23 +1,27 @@
-section.seccion-productos{
-    margin-left: 20%;
-    .col-sm-3{
-        h5{
-            font-size: 100;
-            font-family: "Lumanosimo", cursive;
-            color: black;
-        }
-        .producto{
-            width: 50%;
-            height: 25%;
-        }
+.seccion-productos{
+    background-color: #f0fffe;
+        .col-sm-3{
         .card-body{
-        text-align: center;
+            justify-content: center;
+            align-items: center;
+            .card-title{
+            font-family:'Lumanosimo', cursive;
+            margin: 1rem;
+            text-align: center;
+            }
+            .producto{
+            width: 100%;
+            height: 100%;
+            
+            }
+            .btn{
+            margin: 15px;
+            margin-left: 40%;
+            }
+            }
         }
-        a{
-        font-size: 80%;
-        size: 3rem;
-        text-align: center;
-        width: 50%;
+        .vermas{
+            margin-left: 10px;
         }
-    }
+
 }

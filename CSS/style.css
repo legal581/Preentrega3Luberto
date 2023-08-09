@@ -123,26 +123,28 @@ body .subtitulo {
   color: black;
 }
 
-section.seccion-productos {
-  margin-left: 20%;
+.seccion-productos {
+  background-color: #f0fffe;
 }
-section.seccion-productos .col-sm-3 h5 {
-  font-size: 100;
+.seccion-productos .col-sm-3 .card-body {
+  justify-content: center;
+  align-items: center;
+}
+.seccion-productos .col-sm-3 .card-body .card-title {
   font-family: "Lumanosimo", cursive;
-  color: black;
-}
-section.seccion-productos .col-sm-3 .producto {
-  width: 50%;
-  height: 25%;
-}
-section.seccion-productos .col-sm-3 .card-body {
+  margin: 1rem;
   text-align: center;
 }
-section.seccion-productos .col-sm-3 a {
-  font-size: 80%;
-  size: 3rem;
-  text-align: center;
-  width: 50%;
+.seccion-productos .col-sm-3 .card-body .producto {
+  width: 100%;
+  height: 100%;
+}
+.seccion-productos .col-sm-3 .card-body .btn {
+  margin: 15px;
+  margin-left: 40%;
+}
+.seccion-productos .vermas {
+  margin-left: 10px;
 }
 
 .notas-formacion {
